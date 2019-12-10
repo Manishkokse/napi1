@@ -1,0 +1,20 @@
+{
+  "name": "node-token-authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.8.4",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "md5": "^2.2.1",
+    "mime": "^2.3.1",
+    "mongoose": "^4.4.5",
+    "mongoose-deep-populate": "^3.1.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.14.3"
+  }
+}
